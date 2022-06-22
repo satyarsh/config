@@ -7,7 +7,7 @@ function run {
   fi
 }
 
-feh --bg-scale /home/satyar/Pictures/streets_grayscale_3888x2592.jpg
+feh --bg-scale #add location here
 #picom
 xset b off
 csd-mouse #sets the mouse config from cinnamon
