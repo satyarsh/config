@@ -1,0 +1,23 @@
+#orange PS1 prompt color
+PS1='\[\e[0;38;5;208m\]┬─[\[\e[0;38;5;208m\]\w\n\[\e[0;38;5;208m\]╰─>\[\e[0m\]'
+
+# some more ls aliases
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias update='sudo apt update && sudo apt upgrade'
+alias nf='neofetch'
+alias cl='clear'
+alias lh='ls -lh'
+alias dsk='cd /home/sat/Desktop'
+alias dld='cd /home/sat/Downloads'
+alias bashrc='sudo nano .bashrc'
+alias ee='exit'
+alias ins='sudo apt install'
+alias ht='htop'
+alias rmins='sudo apt remove'
+alias nolux='redshift -x'
+alias lux='redshift -O 5800'
+alias aa='./a.out'
+alias cdl='cd;clear'
+alias virt='sudo virt-manager'
