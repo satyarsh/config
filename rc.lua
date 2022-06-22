@@ -335,17 +335,17 @@ globalkeys = gears.table.join(
     -- Rofi or Dmenu
     awful.key({ modkey  },            "d",     function () 
         awful.util.spawn("rofi -show run -theme Arc-Dark -font 'hack 15'") end,
-                  {description = "Launch Rofi", group = "satyar"}),
+                  {description = "Launch Rofi", group = "sat"}),
 
     -- Launch Caja
     awful.key({ modkey  },            "e",     function () 
         awful.util.spawn("caja") end,
-                  {description = "Launch Caja", group = "satyar"}),
+                  {description = "Launch Caja", group = "sat"}),
 
     -- Launch Waterfox
     awful.key({ modkey  },            "w",     function () 
-        awful.util.spawn("/home/satyar/wtfox.sh") end,
-                  {description = "Launch waterfox", group = "satyar"}),
+        awful.util.spawn("/home/sat/wtfox.sh") end,
+                  {description = "Launch waterfox", group = "sat"}),
                   
     awful.key({ modkey }, "x",
               function ()
