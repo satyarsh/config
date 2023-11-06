@@ -4,17 +4,19 @@
 
 
 lines1="-----------------------------------------"
+name_of_loc="Flash1"
 
 echo $lines1 
-echo "mkdir /tmp/w701"
+echo "mkdir /tmp/$name_of_loc"
 echo $lines1
 
-sudo mkdir /tmp/w701/
+sudo mkdir /tmp/$name_of_loc/
 
 echo $lines1 
-echo "Mounting it to ---->> /tmp/w701"
+echo "Mounting it to ---->> /tmp/$name_of_loc"
 echo $lines1
 
-sudo sshfs -o allow_other,default_permissions satyar@192.168.0.2:/home/satyar/ /tmp/w701/
+sudo sshfs -o allow_other,default_permissions sat@10.42.0.1:/media/sat/6800CEC600CE9A88/ /tmp/$name_of_loc/
 
-#When Done ----> umount /tmp/w701
+echo
+echo "When Done ----> umount /tmp/$name_of_loc"
