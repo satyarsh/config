@@ -26,9 +26,9 @@ https://linuxize.com/post/how-to-change-the-swappiness-value-in-linux/
 
 ### Virt Manager 
 https://wiki.archlinux.org/title/Virt-manager
-sudo pacman -S --needed virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq iptables-nft
+sudo pacman -S --needed virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq iptables-nft <br>
 sudo usermod -a -G libvirt $USER
 
 ### Arch Linux
-sudo pacman -Syyu;sudo pacman -S mpv vlc micro htop neofetch gnome-disk-utility corectrl telegram-desktop cpupower
+sudo pacman -Syyu;sudo pacman -S mpv vlc micro htop neofetch gnome-disk-utility corectrl telegram-desktop cpupower <br>
 yay -S vscodium-bin cpupower-gui 
