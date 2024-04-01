@@ -25,7 +25,7 @@ sudo apt update;sudo apt install mpv vlc micro htop neofetch gnome-disk-utility 
 https://linuxize.com/post/how-to-change-the-swappiness-value-in-linux/
 
 ### Virt Manager 
-https://wiki.archlinux.org/title/Virt-manager
+https://wiki.archlinux.org/title/Virt-manager <br>
 sudo pacman -S --needed virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq iptables-nft <br>
 sudo usermod -a -G libvirt $USER
 
