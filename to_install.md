@@ -32,3 +32,7 @@ sudo usermod -a -G libvirt $USER
 ### Arch Linux
 sudo pacman -Syyu;sudo pacman -S mpv vlc micro htop neofetch gnome-disk-utility corectrl telegram-desktop cpupower <br>
 yay -S vscodium-bin cpupower-gui 
+<br>
+### Lutris
+https://github.com/lutris/docs/blob/master/InstallingDrivers.md
+https://www.devdungeon.com/content/install-lutris-gaming-debian
