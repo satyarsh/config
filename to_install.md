@@ -34,5 +34,5 @@ sudo pacman -Syyu;sudo pacman -S mpv vlc micro htop neofetch gnome-disk-utility 
 yay -S vscodium-bin cpupower-gui 
 <br>
 ### Lutris
-https://github.com/lutris/docs/blob/master/InstallingDrivers.md
+https://github.com/lutris/docs/blob/master/InstallingDrivers.md <br>
 https://www.devdungeon.com/content/install-lutris-gaming-debian
