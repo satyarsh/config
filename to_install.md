@@ -43,3 +43,5 @@ https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubunt
 sudo apt update <br>
 sudo apt install mariadb-server <br>
 sudo mysql_secure_installation <br>
+sudo systemctl enable mariadb.service <br>
+sudo systemctl start mariadb.service <br>
