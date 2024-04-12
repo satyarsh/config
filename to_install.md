@@ -40,6 +40,6 @@ https://www.devdungeon.com/content/install-lutris-gaming-debian
 ### MariaDB
 https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-20-04 <br>
 <br>
-sudo apt update
-sudo apt install mariadb-server
-sudo mysql_secure_installation
+sudo apt update <br>
+sudo apt install mariadb-server <br>
+sudo mysql_secure_installation <br>
