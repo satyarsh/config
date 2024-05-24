@@ -1,5 +1,10 @@
 Install VSCodium form the .deb Package (https://github.com/VSCodium/vscodium)
 
+<br>
+
+### Byobu (a Better Tmux)
+https://help.ubuntu.com/community/Byobu <br>
+https://github.com/satyarsh/config/blob/main/byobu_cheatsheet.txt <br>
 
 ### FireFox Extentions
 https://addons.mozilla.org/en-US/firefox/addon/df-youtube/
