@@ -1,8 +1,5 @@
-[Install VSCodium form the .deb Package] (https://github.com/VSCodium/vscodium)
+Install VSCodium form the .deb Package (https://github.com/VSCodium/vscodium)
 
-
-[Install Rust Analizer and Python plugins in VSCodium]
-(https://doc.rust-lang.org/stable/book/)
 
 ### FireFox Extentions
 https://addons.mozilla.org/en-US/firefox/addon/df-youtube/
@@ -45,3 +42,10 @@ sudo apt install mariadb-server <br>
 sudo mysql_secure_installation <br>
 sudo systemctl enable mariadb.service <br>
 sudo systemctl start mariadb.service <br>
+
+<br>
+### VirutalBox on Windows 
+HyperV via the Chris Titus Script <br>
+https://www.virtualbox.org/wiki/Downloads <br>
+https://www.python.org/ <br>
+pip install pywin32 <br>
