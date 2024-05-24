@@ -43,7 +43,6 @@ sudo mysql_secure_installation <br>
 sudo systemctl enable mariadb.service <br>
 sudo systemctl start mariadb.service <br>
 
-<br>
 ### VirutalBox on Windows 
 HyperV via the Chris Titus Script <br>
 https://www.virtualbox.org/wiki/Downloads <br>
