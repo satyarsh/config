@@ -51,3 +51,8 @@ HyperV via the Chris Titus Script <br>
 https://www.virtualbox.org/wiki/Downloads <br>
 https://www.python.org/ <br>
 pip install pywin32 <br>
+
+### Enable Window Close on LXQT 
+sudo apt install xdotool -y <br>
+xdotool getwindowfocus windowkill <br>
+
