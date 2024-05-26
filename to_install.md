@@ -57,4 +57,6 @@ sudo apt install xdotool -y <br>
 xdotool getwindowfocus windowkill <br>
 xdotool getwindowfocus windowclose <br>
 xdotool getwindowfocus windowminimize <br>
+xdotool windowsize $(xdotool getactivewindow) 100% 100% <br>
+xdotool key ctrl+super+Up <br>
 
