@@ -55,4 +55,6 @@ pip install pywin32 <br>
 ### Enable Window Close on LXQT 
 sudo apt install xdotool -y <br>
 xdotool getwindowfocus windowkill <br>
+xdotool getwindowfocus windowclose <br>
+xdotool getwindowfocus windowminimize <br>
 
