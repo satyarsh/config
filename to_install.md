@@ -53,10 +53,11 @@ https://www.python.org/ <br>
 pip install pywin32 <br>
 
 ### Enable Window Close on LXQT 
-sudo apt install xdotool -y <br>
+sudo apt install xdotool brightnessctl breeze breeze-icon-theme kde-style-breeze kate -y <br>
 xdotool getwindowfocus windowkill <br>
 xdotool getwindowfocus windowclose <br>
 xdotool getwindowfocus windowminimize <br>
-xdotool windowsize $(xdotool getactivewindow) 100% 100% <br>
-xdotool key ctrl+super+Up <br>
+xdotool getwindowfocus windowsize 100% 100% <br>
+brightnessctl set 10%- <br>
+brightnessctl set 10%+ <br>
 
