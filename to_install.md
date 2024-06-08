@@ -1,4 +1,5 @@
-Install VSCodium form the .deb Package (https://github.com/VSCodium/vscodium)
+Install VSCodium form the .deb Package (https://github.com/VSCodium/vscodium) <br>
+https://stackoverflow.com/questions/98610/how-can-i-get-eclipse-to-show-files
 
 ### Byobu (a Better Tmux)
 https://help.ubuntu.com/community/Byobu <br>
