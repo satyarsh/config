@@ -59,6 +59,14 @@ xdotool getwindowfocus windowkill <br>
 xdotool getwindowfocus windowclose <br>
 xdotool getwindowfocus windowminimize <br>
 xdotool getwindowfocus windowsize 100% 100% <br>
+
+### brightnessctl
 brightnessctl set 10%- <br>
 brightnessctl set 10%+ <br>
+
+### CPU Freq Scalling
+https://wiki.archlinux.org/title/CPU_frequency_scaling <br>
+cpupower frequency-set -g performance <br>
+sudo cpupower frequency-info <br>
+sudo cpupower frequency-set -u 2300MHZ <br>
 
