@@ -4,3 +4,7 @@
 
 exec /usr/bin/mate-session &
 
+
+### OPENBOX
+#xrdb $HOME/.Xresources
+#openbox-session &
