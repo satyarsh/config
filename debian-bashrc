@@ -21,3 +21,31 @@ alias lux='redshift -O 5800'
 alias aa='./a.out'
 alias cdl='cd;clear'
 alias virt='sudo virt-manager'
+
+
+# Newer Aliases
+alias ll='ls -alF'
+#alias la='ls -A'
+alias l='ls -lh'
+alias cl='clear'
+alias ht='htop'
+alias nf='neofetch'
+alias ee='exit'
+alias cdl='cd;clear'
+alias hs='history'
+alias bb='byobu'
+
+~/pfetch
+nmcli | grep inet4
+echo
+      df -h /
+echo
+      lsblk
+echo
+echo -n 'Battery Capacity : '
+cat /sys/class/power_supply/BAT0/capacity
+cho -n 'Battery Status : '
+cat /sys/class/power_supply/BAT0/status
+echo -n 'Scaling Governor : '
+cat /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
+echo
