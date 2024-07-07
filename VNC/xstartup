@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Location : /home/sat/.vnc/xstartup
+
+exec /usr/bin/mate-session &
+
