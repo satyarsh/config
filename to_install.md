@@ -69,6 +69,3 @@ https://wiki.archlinux.org/title/CPU_frequency_scaling <br>
 cpupower frequency-set -g performance <br>
 sudo cpupower frequency-info <br>
 sudo cpupower frequency-set -u 2300MHZ <br>
-
--- GIT TEST --
-
