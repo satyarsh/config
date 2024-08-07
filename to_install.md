@@ -70,3 +70,5 @@ cpupower frequency-set -g performance <br>
 sudo cpupower frequency-info <br>
 sudo cpupower frequency-set -u 2300MHZ <br>
 
+-- GIT TEST --
+
