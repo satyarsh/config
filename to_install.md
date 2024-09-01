@@ -46,11 +46,11 @@ https://www.devdungeon.com/content/install-lutris-gaming-debian
 ### MariaDB
 https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-20-04 <br>
 <br>
-sudo apt update <br>
-sudo apt install mariadb-server <br>
-sudo mysql_secure_installation <br>
-sudo systemctl enable mariadb.service <br>
-sudo systemctl start mariadb.service <br>
+`sudo apt update` <br>
+`sudo apt install mariadb-server` <br>
+`sudo mysql_secure_installation` <br>
+`sudo systemctl enable mariadb.service` <br>
+`sudo systemctl start mariadb.service` <br>
 
 ### VirutalBox on Windows 
 HyperV via the Chris Titus Script <br>
@@ -59,7 +59,7 @@ https://www.python.org/ <br>
 pip install pywin32 <br>
 
 ### Enable Window Close on LXQT 
-sudo apt install xdotool brightnessctl breeze breeze-icon-theme kde-style-breeze kate -y <br>
+`sudo apt install xdotool brightnessctl breeze breeze-icon-theme kde-style-breeze kate -y` <br>
 xdotool getwindowfocus windowkill <br>
 xdotool getwindowfocus windowclose <br>
 xdotool getwindowfocus windowminimize <br>
