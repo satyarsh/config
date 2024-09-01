@@ -20,19 +20,24 @@ https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?utm_source=addo
 <br>
 
 ### Ubuntu / Debian
-sudo apt update;sudo apt install mpv vlc micro htop neofetch gnome-disk-utility default-jdk arandr -y
+`sudo apt update;sudo apt install mpv vlc micro htop neofetch gnome-disk-utility default-jdk arandr -y`
+
+### PHP
+(Tested on Debian Only) <br>
+`sudo apt install php composer phpunit php-curl php-mysql php-sqlite3`
+
 
 ### Swappiness
 https://linuxize.com/post/how-to-change-the-swappiness-value-in-linux/
 
 ### Virt Manager 
 https://wiki.archlinux.org/title/Virt-manager <br>
-sudo pacman -S --needed virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq iptables-nft <br>
-sudo usermod -a -G libvirt $USER
+`sudo pacman -S --needed virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq iptables-nft` <br>
+`sudo usermod -a -G libvirt $USER`
 
 ### Arch Linux
-sudo pacman -Syyu;sudo pacman -S mpv vlc micro htop neofetch gnome-disk-utility corectrl telegram-desktop cpupower <br>
-yay -S vscodium-bin cpupower-gui 
+`sudo pacman -Syyu;sudo pacman -S mpv vlc micro htop neofetch gnome-disk-utility corectrl telegram-desktop cpupower` <br>
+`yay -S vscodium-bin cpupower-gui`
 <br>
 ### Lutris
 https://github.com/lutris/docs/blob/master/InstallingDrivers.md <br>
