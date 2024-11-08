@@ -24,7 +24,15 @@ https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?utm_source=addo
 
 ### PHP
 (Tested on Debian Only) <br>
-`sudo apt install php composer phpunit php-curl php-mysql php-sqlite3`
+`sudo apt install php composer phpunit php-curl php-mysql php-sqlite3` <br>
+Uncomment these extensions in php.ini <br>
+(Debians Location : /etc/php/cli/8.2/php.ini) <br>
+`extension=curl` <br>
+`extension=fileinfo` <br>
+`extension=mbstring` <br>
+`extension=openssl` <br>
+`extension=pdo_mysql` <br>
+`extension=pdo_sqlite`
 
 
 ### Swappiness
