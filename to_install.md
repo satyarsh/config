@@ -27,7 +27,7 @@ https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?utm_source=addo
 `sudo apt install php composer phpunit php-curl php-mysql php-sqlite3` <br>
 
 Uncomment these extensions in php.ini <br>
-(Debians Location : /etc/php/cli/8.2/php.ini) <br>
+(Notes: Debian's /etc/php/cli/8.x/php.ini doesn't need to be uncommented) <br>
 `extension=curl` <br>
 `extension=fileinfo` <br>
 `extension=mbstring` <br>
