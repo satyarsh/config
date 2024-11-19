@@ -48,11 +48,11 @@ https://wiki.archlinux.org/title/Virt-manager <br>
 `sudo pacman -Syyu;sudo pacman -S mpv vlc micro htop neofetch gnome-disk-utility corectrl telegram-desktop cpupower` <br>
 `yay -S vscodium-bin cpupower-gui`
 
-### Arch Linux
-sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
-yay -S pfetch vlc mpv obs mint-themes mint-y-icons mint-x-icons mate-tweek zed noto-fonts lact bottles os-prober
-sudo pacman -S xdg-user-dirs-gtk xdg-user-dirs ttf-hack mc micro git gnome-disk-utility wine wine-gecko wine-mono winetricks
-sudo pacman -S --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
+### Arch Linux (Gaming)
+`sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si` <br>
+`yay -S pfetch vlc mpv obs mint-themes mint-y-icons mint-x-icons mate-tweek zed noto-fonts lact bottles os-prober` <br>
+`sudo pacman -S xdg-user-dirs-gtk xdg-user-dirs ttf-hack mc micro git gnome-disk-utility wine wine-gecko wine-mono winetricks` <br>
+`sudo pacman -S --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader`
 <br>
 ### Lutris
 https://github.com/lutris/docs/blob/master/InstallingDrivers.md <br>
