@@ -52,8 +52,10 @@ https://wiki.archlinux.org/title/Virt-manager <br>
 `sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si` <br>
 `yay -S pfetch vlc mpv obs mint-themes mint-y-icons mint-x-icons mate-tweek zed noto-fonts lact bottles os-prober` <br>
 `sudo pacman -S ttf-liberation ttf-dejavu xdg-user-dirs-gtk xdg-user-dirs ttf-hack mc micro git gnome-disk-utility wine wine-gecko wine-mono winetricks` <br>
-`sudo pacman -S --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader`
-<br>
+`sudo pacman -S --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader` <br>
+#### For Mate Desktop with Arch
+`https://wiki.archlinux.org/title/XDG_Desktop_Portal#List_of_backends_and_interfaces` <br>
+`sudo pacman -S xdg-desktop-portal-gtk` <br>
 ### Lutris
 https://github.com/lutris/docs/blob/master/InstallingDrivers.md <br>
 https://www.devdungeon.com/content/install-lutris-gaming-debian
